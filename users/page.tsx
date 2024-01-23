@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import getAllUsers from "@/lib/getAllUsers"
-import Link from "next/link";
+import Link from "next/link"
 
 export const metadata: Metadata = {
     title: 'Users',
@@ -12,7 +12,7 @@ export default async function UsersPage() {
 
     const users = await usersData
 
-    console.log('Hello')
+    // console.log('Hello')
 
     // map over what we expect to receive
     const content = (
